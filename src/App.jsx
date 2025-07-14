@@ -14,7 +14,7 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/predict', {
+      const response = await axios.post('https://spamdetectorbackend-1.onrender.com', {
         text: emailText,
       });
       setResult(response.data);
