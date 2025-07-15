@@ -14,7 +14,7 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await axios.post('https://spamdetectorbackend-1.onrender.com', {
+      const response = await axios.post('https://spamdetectorbackend.onrender.com', {
         text: emailText,
       });
       setResult(response.data);
