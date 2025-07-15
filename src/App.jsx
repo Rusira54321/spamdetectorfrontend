@@ -70,7 +70,6 @@ const App = () => {
                 {result.prediction.toUpperCase()}
               </span>
             </p>
-            <p className="text-gray-700 text-base">Confidence: {Math.round(result.confidence * 100)}%</p>
           </div>
         )}
 
